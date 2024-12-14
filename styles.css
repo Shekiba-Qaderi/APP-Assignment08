@@ -1,0 +1,166 @@
+body{
+    background-color: #f7ddce;
+    margin: 0px;
+    font-family: arial;
+}
+
+/*Styles navigation menu*/
+#menu{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: right;
+    margin: 0px;
+    position: fixed;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    position: relative;
+    top:17px;
+    padding: 16px 25px;
+}
+#menu a:hover{
+    background-color: #eca982;
+}
+
+/*Styles product container*/
+.product-container, .container{
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.row{
+    display: flex;
+}
+
+/*Styles product-image and product-detail*/
+.product-image{
+    width: 400px;
+    height: 360px;
+    padding: 5px 10px;
+}
+.product-image img{
+    width: 100%;
+    height: 260px;
+}
+.promo-code p{
+    background-color:  #eca982;
+    border: 2px solid  #9c5f3b;
+    margin-top: 25px;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+.product-detail{
+    width: 400px;
+    height: 360px;
+    padding: 5px 10px;
+    text-align: justify;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.product-detail ul li{
+    margin-bottom: 5px;
+}
+
+/*Styles related-product*/
+.related-product{
+    padding: 5px;
+    margin: 20px 10px;
+    border: 1px solid #000;
+    background-color: #eca982;
+    width: 200px;
+    height: 175px;
+    display: inline-block;
+    position: relative;
+}
+.related-product-image{
+    padding: 15px;
+}
+.related-product-image img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.related-product-name{
+    background-color: rgba(0, 0, 0, .9);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    visibility: hidden;
+}
+.related-product:hover .related-product-name{
+    visibility: visible;
+}
+.related-product-name h4{
+    text-align: center;
+}
+
+/*Styles footer*/
+footer{
+	background-color:black;
+    width: 100%;
+    height: 40px;
+    font-family:comic sans ms;
+    margin-top: -15px;
+}
+footer p{
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+}
+
+
+/*Styles part of about page*/
+
+.row1 img{
+    width: 100%;
+    height: 400px;
+}
+.team-box{
+    width: 254px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.team-box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.team-box p{
+    font-size: 14px;
+}
+.team-box h5, p{
+    margin-top: -10px;
+}
+.parent{
+    position: relative;
+}
+.parent .child{
+    float: right;
+    background-color:rgba(41, 40, 40, 0.6);
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 8px;
+    visibility: hidden;
+}
+.parent:hover .child{
+    visibility: visible;
+}
+.parent{
+    margin-top: -30px;
+}
